@@ -1,4 +1,5 @@
-#Juego "Adivina el Número"
+# Juego "Adivina el Número"
+
 ### Descripción del Juego
 "Adivina el Número" es un juego clásico donde el jugador debe intentar adivinar un número aleatorio entre 1 y 100 en un máximo de 10 intentos. Después de cada intento, el juego proporciona retroalimentación indicando si el número ingresado es demasiado alto, demasiado bajo o correcto.
 
@@ -9,7 +10,7 @@
 
 ### Estructura del Código
 
-####index.html
+#### index.html
 ##### El archivo HTML contiene:
 
 - Estructura básica:
@@ -120,3 +121,4 @@ guessInput.addEventListener(): Permite usar la tecla Enter para enviar adivinanz
 El juego funciona en todos los navegadores modernos que soportan JavaScript ES6+.
 
 ¡Disfruta del juego!
+
