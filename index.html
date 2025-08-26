@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el Número</title>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #937ce1;
+        }
+        /* h1 {
+            color: #333;
+        } 
+        .input-area {
+            margin: 20px 0;
+        }
+        input {
+            padding: 8px;
+            font-size: 16px;
+            width: 80px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        #restart-btn {
+            background-color: #f44336;
+        }
+        .feedback {
+            margin: 15px 0;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+        }
+        .info {
+            background-color: #d9edf7;
+            color: #31708f;
+        }
+        .attempts {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 4px;
+        }*/
+        .attempt-number {
+            display: inline-block;
+            background-color: #937ce1;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+        /*.attempts-left {
+            margin-top: 10px;
+            font-weight: bold;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Adivina el Número</h1>
+    
+    <p>He elegido un número entre <strong>1 y 100</strong>. Tienes <strong>10 intentos</strong> para adivinarlo.</p>
+    
+    <div class="input-area">
+        <input type="number" id="guess-input" min="1" max="100" placeholder="1-100">
+        <button id="guess-btn">Adivinar</button>
+        <button id="restart-btn" style="display:none;">Jugar de nuevo</button>
+    </div>
+    
+    <div id="feedback" class="feedback"></div>
+    
+    <div class="attempts">
+        <h3>Números probados:</h3>
+        <div id="attempts-list"></div>
+        <div id="attempts-left" class="attempts-left">Intentos restantes: 10</div>
+    </div>
+
+    <!-- Incluir el archivo JavaScript externo -->
+    <script src="game.js"></script>
+    
+</body>
+</html>
