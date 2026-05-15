@@ -1,4 +1,4 @@
-# Juego "Adivina el Número"
+## Juego "Adivina el Número"
 
 ### Descripción del Juego
 "Adivina el Número" es un juego clásico donde el jugador debe intentar adivinar un número aleatorio entre 1 y 100 en un máximo de 10 intentos. Después de cada intento, el juego proporciona retroalimentación indicando si el número ingresado es demasiado alto, demasiado bajo o correcto.
